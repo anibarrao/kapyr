@@ -18,5 +18,5 @@ de aproximadamente 1:10. La función retorna una imagen con el mismo formato de 
 ```
 from Kapyr.transform.move import move_image_coordinates_randomly
 
-move_image_coordinates_randomly(<'ruta_origen.tif'>)
+move_image_coordinates_randomly(path)
 ```
