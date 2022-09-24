@@ -27,3 +27,8 @@ kapyr/
 En donde las funciones principales se encuentran en move, lossy y lossles, respectivamente. Éstas se alimentan de funciones más sencillas que se encuentran en la carpeta utils.
 Siguiendo de esta manera una arquitectura típica de de una librería de Python. Cabe recordar que todas las funciones principales retornan imágenes en el mismo formato que la
 imagen de entrada.
+
+
+### Instalación
+
+Para instalar esta librería se debe clonar el repositorio e instalar las dependencias necesarias con pip encontradas en requirements.txt. Se debe ejecutar el main.py con la imagen de prueba, se pueden hacer los llamados a las funciones de los distintos módulos de kapyr descritos anteriormente. 
