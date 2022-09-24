@@ -3,10 +3,7 @@
 Recibe una imagen con información geográfica y retorna la misma imagen cambiando su posición en el sistema de referencia por coordenadas.
 
 ## Funcionamienito
-
-Se realiza la lectura de la información raster empleando la función open de rasterio, posteriormente se escribe una copia de la imagen con la misma metadata y el mismo array 
-numérico, pero implementando el parámetro **compress** usando el método **Deflate**, éste último es un algoritmo Lossless que brinda una reducción del tamaño (en memoria)
-de aproximadamente 1:10. La función retorna una imagen con el mismo formato de entrada. 
+Se realiza la lectura de la imagen empleando la función open de rasterio, conviertierndo el *crs* a estándar wgs24. Luego, se generan dos números aleatorios, uno entre -180 y 180 y el otro entre  -90 y 90, correspondientes a la posición x e y. Posteriormente, se define un transform.affine con las coordenadas cambiadas y se usa para crear una copia de la imagen original (misma metadata y arreglo numérico de imagen) pero con la transformación trasladada.   
 
 ## Parámetros
 - path: Ruta de la imagen de origen en formato tif, jp2 o img.
