@@ -18,11 +18,11 @@ kapyr/
     - export.py
     - reprojection.py
     - utilities.py
-  - [doc/compress]
-    - lossy.py
-    - lossless.py
-  - [doc/transform]
-    - move.py
+  - ¨compress/
+    - [lossy.py](https://github.com/anibarrao/kapyr/blob/feature/add-documentation/doc/compress/lossy.md)
+    - [lossless.py](https://github.com/anibarrao/kapyr/blob/feature/add-documentation/doc/compress/lossless.md)
+  - transform/
+    - [move.py](https://github.com/anibarrao/kapyr/blob/feature/add-documentation/doc/transform/move.md)
 
 En donde las funciones principales se encuentran en move, lossy y lossles, respectivamente. Éstas se alimentan de funciones más sencillas que se encuentran en la carpeta utils.
 Siguiendo de esta manera una arquitectura típica de de una librería de Python. Cabe recordar que todas las funciones principales retornan imágenes en el mismo formato que la
