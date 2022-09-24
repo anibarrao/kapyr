@@ -11,7 +11,7 @@ el método Deflate, que también es de tipo lossless.
 - **path**: Ruta de la imagen de origen en formato tif, jp2 o img.
 
 ## Salidas
-Retorna un string que incluye el path a la imagen procesada. Esta ruta se guarda en /temp. El formato de la imágen de salida es el midmo de origen.
+Retorna un string que incluye el path a la imagen procesada. Esta ruta se guarda en /temp. El formato de la imágen de salida es el mismo de origen.
 
 ## Ejemplo
 ```
