@@ -1,6 +1,6 @@
-# Función de compresión y reducción lossy
+# Función de compresión y reducción *lossy*
 
-Esta función realiza la compresión de una imagen en formato **ti**, **jp2** o **img**. Dicha compresión reduce la dimensión original de la imagen a un 5% de la misma. 
+Esta función realiza la compresión de una imagen en formato **ti**, **jp2** o **img**. Dicha compresión reduce la dimensión original de la imagen en un 95%. 
 
 ## Dependencias: 
 <ul>
