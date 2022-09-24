@@ -18,7 +18,7 @@ kapyr/
     - export.py
     - reprojection.py
     - utilities.py
-  - ¨compress/
+  - compress/
     - [lossy.py](https://github.com/anibarrao/kapyr/blob/feature/add-documentation/doc/compress/lossy.md)
     - [lossless.py](https://github.com/anibarrao/kapyr/blob/feature/add-documentation/doc/compress/lossless.md)
   - transform/
