@@ -6,7 +6,7 @@ En la primera versión de esta librería se implementan tres funciones principal
 
 - *resize_image:* Esta función realiza la compresión de una imagen en formato ti, jp2 o img. Dicha compresión reduce la dimensión original de la imagen en un 95%.
 
-- *move_image_coordinates_randomly:* Recibe una imagen con información geográfica y retorna la misma imagen cambiando su posición en el sistema de referencia por coordenadas.
+- *compress_image:* Esta función comprime una imagen geoespacial de tipo raster mediante un método lossless sin pérdida de resolución coordenadas.
 
 ### Arquitectura
 
