@@ -18,10 +18,10 @@ kapyr/
     - export.py
     - reprojection.py
     - utilities.py
-  - [compress]
+  - [doc/compress]
     - lossy.py
     - lossless.py
-  - [transform]
+  - [doc/transform]
     - move.py
 
 En donde las funciones principales se encuentran en move, lossy y lossles, respectivamente. Éstas se alimentan de funciones más sencillas que se encuentran en la carpeta utils.
